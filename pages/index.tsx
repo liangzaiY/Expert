@@ -1,7 +1,6 @@
 import Header from "next/head";
-import Button from "@material-ui/core/Button";
 import CssBaseline from "@material-ui/core/CssBaseline";
-
+import Home from "./Home";
 export default function App() {
   return (
     <>
@@ -21,10 +20,7 @@ export default function App() {
         <title>专家的个人网站</title>
       </Header>
       <CssBaseline>
-        <div>hello~</div>
-        <Button variant="contained" color="primary">
-          material-UI
-        </Button>
+        <Home />
       </CssBaseline>
     </>
   );
