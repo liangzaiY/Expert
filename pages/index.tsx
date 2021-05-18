@@ -17,7 +17,7 @@ export default function App() {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
         />
-        <title>专家的个人网站</title>
+        <title>砖家的个人网站</title>
       </Header>
       <CssBaseline>
         <Home />

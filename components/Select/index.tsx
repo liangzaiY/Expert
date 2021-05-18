@@ -2,7 +2,6 @@ import React, { FC } from "react";
 import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
 import InputLabel from "@material-ui/core/InputLabel";
 import MenuItem from "@material-ui/core/MenuItem";
-import FormHelperText from "@material-ui/core/FormHelperText";
 import FormControl from "@material-ui/core/FormControl";
 import Select from "@material-ui/core/Select";
 
@@ -20,7 +19,7 @@ const useStyles = makeStyles((theme: Theme) =>
 interface IProps<T = ItemProps> {
   value?: string | number;
   onChange?: any;
-  classes: Record<"formControl" | "selectEmpty", string>;
+  classes?: any;
   options: Array<T>;
 }
 
@@ -29,9 +28,9 @@ interface ItemProps {
   value: string | number;
 }
 const SimpleSelect: FC<IProps> = ({ value, onChange, classes, options }) => {
-  // const classes = useStyles();
+  const styles = classes || useStyles();
   return (
-    <FormControl className={classes.formControl}>
+    <FormControl className={styles.formControl}>
       <InputLabel id="select-label"></InputLabel>
       <Select
         labelId="select-label"
