@@ -8,6 +8,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/server": "^11.4.0",
+    "@emotion/styled": "^11.6.0",
+    "@material-ui/core": "^5.0.0-beta.5",
+    "@mui/icons-material": "^5.1.1",
+    "@mui/material": "^5.1.1",
     "@zeit/next-less": "^1.0.1",
     "less": "^4.1.2",
     "next": "12.0.4",
@@ -17,8 +23,27 @@
   "devDependencies": {
     "@types/node": "16.11.7",
     "@types/react": "17.0.35",
-    "eslint": "7",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^19.0.0",
     "eslint-config-next": "12.0.4",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-compat": "^4.0.0",
+    "eslint-plugin-jsx-control-statements": "^2.2.1",
+    "eslint-plugin-react": "^7.27.1",
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-react": "^4.0.0",
+    "tslint-react-hooks": "^2.2.1",
     "typescript": "4.4.4"
-  }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
 }

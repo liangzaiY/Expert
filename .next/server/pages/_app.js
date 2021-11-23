@@ -1,45 +1,168 @@
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
+"use strict";
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./pages/_app.tsx":
-/*!************************!*\
-  !*** ./pages/_app.tsx ***!
-  \************************/
+/***/ 133:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ \"react/jsx-runtime\");\n/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/globals.css */ \"./styles/globals.css\");\n/* harmony import */ var _styles_globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_globals_css__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return(/*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(Component, {\n        ...pageProps,\n        __source: {\n            fileName: \"/Users/mlatin/Desktop/tiem/Expert/pages/_app.tsx\",\n            lineNumber: 5,\n            columnNumber: 10\n        },\n        __self: this\n    }));\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBOEI7U0FHckJBLEtBQUssQ0FBQyxDQUFDLENBQUNDLFNBQVMsR0FBRUMsU0FBUyxFQUFXLENBQUMsRUFBRSxDQUFDO0lBQ2xELE1BQU0sc0VBQUVELFNBQVM7V0FBS0MsU0FBUzs7Ozs7Ozs7QUFDakMsQ0FBQztBQUVELGlFQUFlRixLQUFLLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9uZXh0LWFwcC8uL3BhZ2VzL19hcHAudHN4PzJmYmUiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiLi4vc3R5bGVzL2dsb2JhbHMuY3NzXCI7XG5pbXBvcnQgdHlwZSB7IEFwcFByb3BzIH0gZnJvbSBcIm5leHQvYXBwXCI7XG5cbmZ1bmN0aW9uIE15QXBwKHsgQ29tcG9uZW50LCBwYWdlUHJvcHMgfTogQXBwUHJvcHMpIHtcbiAgcmV0dXJuIDxDb21wb25lbnQgey4uLnBhZ2VQcm9wc30gLz47XG59XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwO1xuIl0sIm5hbWVzIjpbIk15QXBwIiwiQ29tcG9uZW50IiwicGFnZVByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_app.tsx\n");
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(689);
+;// CONCATENATED MODULE: external "next/head"
+const head_namespaceObject = require("next/head");
+var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
+// EXTERNAL MODULE: external "@mui/material/styles"
+var styles_ = __webpack_require__(442);
+;// CONCATENATED MODULE: external "@mui/material/CssBaseline"
+const CssBaseline_namespaceObject = require("@mui/material/CssBaseline");
+var CssBaseline_default = /*#__PURE__*/__webpack_require__.n(CssBaseline_namespaceObject);
+;// CONCATENATED MODULE: external "@emotion/react"
+const react_namespaceObject = require("@emotion/react");
+// EXTERNAL MODULE: ./src/theme.ts + 1 modules
+var theme = __webpack_require__(465);
+// EXTERNAL MODULE: ./src/createEmotionCache.ts + 1 modules
+var createEmotionCache = __webpack_require__(544);
+;// CONCATENATED MODULE: ./pages/_app.tsx
+
+
+
+
+
+
+
+
+// Client-side cache, shared for the whole session of the user in the browser.
+const clientSideEmotionCache = (0,createEmotionCache/* default */.Z)();
+const MyApp = (props)=>{
+    const { Component , emotionCache =clientSideEmotionCache , pageProps  } = props;
+    (0,external_react_.useEffect)(()=>{
+        console.log(props, "props");
+    }, [
+        props
+    ]);
+    return(/*#__PURE__*/ (0,jsx_runtime_.jsxs)(react_namespaceObject.CacheProvider, {
+        value: emotionCache,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
+                        children: "My Expert"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
+                        name: "viewport",
+                        content: "initial-scale=1, width=device-width"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
+                        rel: "stylesheet",
+                        href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)(styles_.ThemeProvider, {
+                theme: theme/* default */.Z,
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx((CssBaseline_default()), {
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                        ...pageProps
+                    })
+                ]
+            })
+        ]
+    }));
+};
+/* harmony default export */ const _app = (MyApp);
+
 
 /***/ }),
 
-/***/ "./styles/globals.css":
-/*!****************************!*\
-  !*** ./styles/globals.css ***!
-  \****************************/
-/***/ (() => {
+/***/ 544:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ createEmotionCache)
+});
+
+;// CONCATENATED MODULE: external "@emotion/cache"
+const cache_namespaceObject = require("@emotion/cache");
+var cache_default = /*#__PURE__*/__webpack_require__.n(cache_namespaceObject);
+;// CONCATENATED MODULE: ./src/createEmotionCache.ts
+
+function createEmotionCache() {
+    return cache_default()({
+        key: "css"
+    });
+};
 
 
 /***/ }),
 
-/***/ "react/jsx-runtime":
-/*!************************************!*\
-  !*** external "react/jsx-runtime" ***!
-  \************************************/
+/***/ 465:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ src_theme)
+});
+
+// EXTERNAL MODULE: external "@mui/material/styles"
+var styles_ = __webpack_require__(442);
+;// CONCATENATED MODULE: external "@mui/material/colors"
+const colors_namespaceObject = require("@mui/material/colors");
+;// CONCATENATED MODULE: ./src/theme.ts
+
+
+// Create a theme instance.
+const theme = (0,styles_.createTheme)({
+    palette: {
+        primary: {
+            main: "#556cd6"
+        },
+        secondary: {
+            main: "#19857b"
+        },
+        error: {
+            main: colors_namespaceObject.red.A400
+        }
+    }
+});
+/* harmony default export */ const src_theme = (theme);
+
+
+/***/ }),
+
+/***/ 442:
 /***/ ((module) => {
 
-"use strict";
+module.exports = require("@mui/material/styles");
+
+/***/ }),
+
+/***/ 689:
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ 997:
+/***/ ((module) => {
+
 module.exports = require("react/jsx-runtime");
 
 /***/ })
@@ -51,7 +174,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.tsx"));
+var __webpack_exports__ = (__webpack_exec__(133));
 module.exports = __webpack_exports__;
 
 })();
