@@ -12,7 +12,7 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app
 
 # 安装依赖
-RUN yarn i --production --registry=https://registry.npm.taobao.org
+RUN yarn i 
 
 # 拷贝其他所有文件到容器（除了 .dockerignore 中的目录和文件）
 COPY . /usr/src/app
