@@ -1,0 +1,72 @@
+.container {
+  width: 19.2rem;
+  height: 10.8rem;
+}
+
+.select_container {
+  width: 4rem;
+  height: 5.8rem;
+  border: 1px #000 solid;
+  border-radius: 0.15rem;
+}
+
+.map {
+  /* flex: 1; */
+  position: absolute;
+  top: 0;
+  left: 2.3rem;
+}
+
+.select_box {
+  position: absolute;
+  top: 2.61rem;
+  right: 3.26rem;
+}
+
+.select_container {
+  padding: 0.36rem;
+}
+
+.province_name {
+  font-size: 0.27rem;
+  font-family: "pfHeavy";
+  margin-bottom: 0.4rem;
+}
+
+.shop {
+  font-family: "pfBold";
+  font-size: 0.22rem;
+  /* border: 1px #000 solid; */
+  margin-bottom: 0.36rem;
+  overflow-y: scroll;
+}
+
+.ul {
+  margin: 0;
+}
+
+.ul li {
+  margin-bottom: 0.15rem;
+}
+
+.ul li:last-child {
+  margin-bottom: 0;
+}
+
+.note {
+  font-size: 0.23rem;
+  font-family: "pfHeavy";
+  text-align: center;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  padding-left: 0.25rem;
+  margin-top: 0.28rem;
+}
+
+.note img {
+  width: 0.28rem;
+  height: 0.28rem;
+  vertical-align: middle;
+  margin-right: 0.1rem;
+}

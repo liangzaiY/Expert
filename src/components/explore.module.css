@@ -1,0 +1,32 @@
+.container {
+  width: 17.63rem;
+  margin: 0 auto;
+}
+
+.img {
+  /* width: 4.25rem; */
+  width: 100%;
+  cursor: pointer;
+}
+
+.text {
+  margin-top: 0.23rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  font-family: "pfBold";
+}
+
+.pre {
+  font-size: 0.25rem;
+}
+
+.title {
+  font-size: 0.23rem;
+}
+
+.name {
+  padding-top: 0.95rem;
+  padding-bottom: 0.85rem;
+  font-family: "pfBold";
+  font-size: 0.35rem;
+}

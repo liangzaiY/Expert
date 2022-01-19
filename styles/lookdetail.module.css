@@ -1,0 +1,166 @@
+.lookdetail {
+  /* background-color: pink; */
+  /* padding-top: 1.5rem; */
+  padding-bottom: 1rem;
+  overflow: hidden;
+}
+
+/* .scroll {
+  transform: translateY(-100vh);
+} */
+
+.header_container {
+  padding-top: 1.5rem;
+  height: calc(100vh - 1.5rem);
+  /* height: 96vh; */
+}
+
+.header {
+  width: 17.8rem;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.header_img {
+  width: 11.3rem;
+  height: 7.66rem;
+}
+
+.text {
+  flex-grow: 1;
+  padding-left: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 11.3rem;
+}
+
+.title {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 0.74rem;
+}
+
+.title > img {
+  height: 0.45rem;
+}
+
+.title > span {
+  display: inline-block;
+  font-family: "ag";
+  font-size: 0.5rem;
+  line-height: 0.27rem;
+  height: 0.27rem;
+  margin-right: 0.1rem;
+}
+
+.text > p {
+  font-family: "pfBold";
+  margin: 0;
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  font-size: 0.28rem;
+  white-space: pre-line;
+  line-height: 0.44rem;
+}
+
+.header_img {
+  width: 11.3rem;
+  height: 7.68rem;
+}
+
+.list_container {
+  padding-top: 1.5rem;
+  /* background-color: violet; */
+  width: 17.6rem;
+  margin: 0 auto;
+  position: relative;
+}
+
+.size {
+  display: flex;
+  font-family: "pfBold";
+  margin-bottom: 0.42rem;
+  align-items: center;
+  cursor: pointer;
+}
+
+.size > span {
+  display: inline-block;
+  line-height: 0.4rem;
+  font-size: 0.4rem;
+  margin-right: 0.18rem;
+}
+
+.arrow {
+  width: 0.38rem;
+  vertical-align: middle;
+}
+
+.select_hidden {
+  transition: transform 0.3s ease;
+  transform: rotate(-180deg);
+}
+
+.spread {
+  transition: transform 0.3s ease;
+  transform: rotate(0deg);
+}
+
+.list_container .select {
+  width: 1.64rem;
+  background-color: #cccbb9;
+  opacity: 0.6;
+  border-radius: 0.1rem;
+  position: absolute;
+  left: 0;
+}
+
+.list_container .select > li {
+  width: 100%;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  text-align: right;
+  font-size: 0.3rem;
+  padding-right: 0.4rem;
+}
+
+.list_container .select > li:not(:last-child) {
+  border-bottom: rgba(0, 0, 0, 0.6) 0.01rem solid;
+}
+
+.list_container .select > li a {
+  color: #000;
+}
+
+.list_kids {
+  margin-top: 1.54rem;
+  /* background-color: yellowgreen; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list_ul {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  height: 19.62rem;
+  justify-content: space-between;
+}
+
+.hidden {
+  /* transition: visibility 0.1s ease; */
+  visibility: hidden;
+}
+
+/* 延时显示 */
+.visible {
+  /* transition-delay: 0.1s; */
+  visibility: visible;
+}
+
+.img {
+  width: 4rem;
+}

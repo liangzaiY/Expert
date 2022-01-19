@@ -1,16 +1,60 @@
+@font-face {
+  font-family: "ag";
+  src: url("/font/Agrandir-WideHeavy.otf");
+  /* src: url("/font/字体名称.eot");
+  src: url("../font/字体名称.woff") format("woff"),
+    url("../font/字体名称.ttf") format("truetype"),
+    url("../font/字体名称.svg") format("svg");
+  src: url("../src/font/PingFang Bold.ttf") format("truetype"); */
+  /* font-display: swap; */
+}
+
+@font-face {
+  font-family: "pfBold";
+  src: url("/font/PingFang Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "pfHeavy";
+  src: url("/font/PingFang Heavy.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "fz";
+  src: url("/font/方正兰亭特黑扁.TTF") format("truetype");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: calc(10000vw / 1920);
+  /* scroll-behavior: smooth; */
 }
+
+/* html,
+body::-webkit-scrollbar {
+  width: 0;
+} */
 
 a {
   color: inherit;
   text-decoration: none;
+  line-height: 100%;
 }
 
 * {
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  line-height: 100%;
 }

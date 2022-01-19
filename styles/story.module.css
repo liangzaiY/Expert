@@ -1,0 +1,145 @@
+.container {
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content > img {
+  height: 100vh;
+  /* width: 9.5rem; */
+}
+
+.text_container {
+  flex-grow: 1;
+  position: relative;
+}
+
+.text {
+  width: 8.4rem;
+  position: absolute;
+  left: 0.76rem;
+  bottom: 1.74rem;
+  right: 0.9rem;
+}
+
+.title {
+  width: 2.63rem;
+  margin-bottom: 0.8rem;
+}
+
+.introduce {
+  white-space: pre-line;
+  font-family: "pfHeavy";
+  font-size: 0.28rem;
+}
+
+.select {
+  top: 1.04rem;
+  right: 0.71rem;
+  position: absolute;
+  font-family: "ag";
+  font-size: 0.2rem;
+}
+
+.select > span {
+  cursor: pointer;
+}
+
+.select ul {
+  position: absolute;
+  top: 0.35rem;
+  left: 0;
+  height: 0.45rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.select ul li a {
+  color: #000;
+  font-size: 0.12rem;
+}
+
+.select ul li:active {
+  transform: scale(1.14);
+}
+
+.scale {
+  transform: scale(1.14);
+}
+
+.more {
+  width: 1.19rem;
+  line-height: 0.2rem;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.backimg {
+  transform: rotate(90deg);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.more > span {
+  margin-right: 0.17rem;
+}
+
+.more img {
+  height: 0.16rem;
+}
+
+.back {
+  width: 1.19rem;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  line-height: 0.2rem;
+}
+
+.back > span {
+  margin-left: 0.17rem;
+}
+
+.back img {
+  width: 0.16rem;
+}
+
+/* .active {
+  transform: scale(1.14);
+  transition: transform ;
+} */
+
+@keyframes active {
+  from {
+    transform: scale(1.14);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes active /* Safari 与 Chrome */ {
+  from {
+    transform: scale(1.14);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+.active {
+  animation: active 0.3s ease-in-out;
+  -webkit-animation: active 0.3s ease-in-out;
+}

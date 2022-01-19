@@ -39,18 +39,18 @@ module.exports = {
     "no-unused-vars": 0, // 不允许未定义的变量
     // ...你自己的配置
     "no-console": [1, { allow: ["warn", "error"] }],
-    "react/display-name": 1,
+    "react/display-name": 0,
     eqeqeq: ["warn", "always"],
     "prefer-const": [
       "error",
       { destructuring: "all", ignoreReadBeforeAssign: true },
     ],
     // @typescript-eslint 配置文档 https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/README.md
-    "@typescript-eslint/indent": [
-      "error",
-      2,
-      { VariableDeclarator: 2, SwitchCase: 2 },
-    ],
+    // "@typescript-eslint/indent": [
+    //   "error",
+    //   2,
+    //   { VariableDeclarator: 2, SwitchCase: 2 },
+    // ],
     "@typescript-eslint/no-unused-vars": 0,
     "@typescript-eslint/interface-name-prefix": 0,
     "@typescript-eslint/explicit-member-accessibility": 0,
@@ -63,7 +63,7 @@ module.exports = {
     ],
     "@typescript-eslint/explicit-function-return-type": 0, // 不检测函数返回类型，让 TS 自动推断
     // React 校验规则  配置文档 https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
-    "react/jsx-indent": [2, 2],
+    // "react/jsx-indent": [0, 2],
     "react/jsx-no-undef": [2, { allowGlobals: true }],
     "react/prop-types": 0, // 使用了 TS，不需要 再使用 PropTypes 校验
     "jsx-control-statements/jsx-use-if-tag": 0,

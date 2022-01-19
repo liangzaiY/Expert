@@ -1,0 +1,32 @@
+.ulbox {
+  margin: 0 auto;
+  width: 10.4rem;
+  font-size: 0.42rem;
+  font-family: ag;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  z-index: 999;
+  left: 50%;
+  top: 1rem;
+  transform: translatex(-50%);
+}
+
+.libox {
+  display: flex;
+  flex-direction: column;
+}
+
+.libox a {
+  display: block;
+  color: #fff;
+}
+
+.underscore {
+  border-bottom: #fff 0.02rem solid;
+}
+
+.video {
+  width: 100%;
+  /* height: 100vh; */
+}

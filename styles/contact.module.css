@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+}
+
+.left img {
+  /* width: 9.5rem; */
+  height: 100vh;
+}
+
+.right {
+  padding-left: 0.84rem;
+  position: relative;
+  /* padding-bottom: 1.3rem; */
+}
+
+.text {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7.9rem;
+  white-space: pre-line;
+  position: absolute;
+}
+
+.chinese {
+  font-family: "pfHeavy";
+  font-size: 0.28rem;
+  line-height: 0.38rem;
+  margin-bottom: 0.25rem;
+}
+
+.english {
+  font-family: "pfBold";
+  font-size: 0.13rem;
+  line-height: 0.16rem;
+  margin-bottom: 0.32rem;
+}
+
+.contactus {
+  width: 1.88rem;
+  height: 0.39rem;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 0.39rem;
+  font-family: "pfBold";
+  font-size: 0.21rem;
+}
+
+.socialaccount {
+  width: 5.36rem;
+  height: 0.78rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.item img {
+  display: inline-block;
+  width: 0.7rem;
+}
+
+.item span {
+  font-size: 0.11rem;
+}
+
+.item > div {
+  text-align: center;
+}
+
+.item div,
+.item span {
+  cursor: pointer;
+}
+
+.back {
+  cursor: pointer;
+  line-height: 0.2rem;
+  height: 0.2rem;
+  position: absolute;
+  top: 1.03rem;
+  right: 0.74rem;
+}
+
+.back > span {
+  margin-left: 0.17rem;
+  font-family: "ag";
+  font-size: 0.2rem;
+}
+
+.backimg {
+  transform: rotate(90deg);
+}
+
+.back img {
+  vertical-align: baseline;
+  width: 0.16rem;
+}
+
+.wxbox {
+  position: relative;
+}
+
+.qrcode {
+  position: absolute;
+  top: -1.45rem;
+  left: -45%;
+}

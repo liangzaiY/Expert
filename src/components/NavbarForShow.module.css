@@ -1,0 +1,29 @@
+.container {
+  width: 6.13rem;
+  /* margin: auto; */
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+}
+
+.container ul {
+  /* height: 0.32rem; */
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 0.42rem;
+}
+
+.container li {
+  box-sizing: border-box;
+  /* color: #fff; */
+  cursor: pointer;
+  margin: auto;
+}
+
+.underscore {
+  border-bottom: 0.02rem solid;
+}

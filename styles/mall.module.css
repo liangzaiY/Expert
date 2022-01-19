@@ -1,0 +1,31 @@
+.container {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.content {
+  width: 17.6rem;
+  margin: auto;
+  margin-top: 2.4rem;
+  display: flex;
+}
+
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right div {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: flex-end;
+}
+
+.right img {
+  height: 3.1rem;
+}
+
+.left img {
+  width: 9rem;
+}
