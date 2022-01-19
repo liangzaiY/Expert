@@ -20,7 +20,7 @@ COPY . /usr/src/app
 # build
 RUN yarn run build
 
-# 暴露端口 9000
+# 暴露端口 3000
 EXPOSE 3000
 
 # 运行容器时执行命令，每个 Dokcerfile 只能有一个 CMD 命令，多个的话只有最后一个会执行
